@@ -1,14 +1,10 @@
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-
 public class Task_4 {
-
     public static void main(String[] args) {
-
         double priceNetManoj = 9.99;
         double vatManoj = 0.23;
         int quantityManoj = 10000;
-
         double grossValueDoubleManoj = priceNetManoj * (1 + vatManoj);
         double totalGrossDoubleManoj = grossValueDoubleManoj * quantityManoj;
         double totalNetDoubleManoj = totalGrossDoubleManoj / (1 + vatManoj);
