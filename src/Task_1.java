@@ -1,7 +1,4 @@
 public class Task_1 {
-
-    // 1. Declare all variables at the top of the class
-    // Variables include the surname 'Manoj' as per instructions
     static float earthWeightManoj;
     static float marsWeightFloatManoj;
     static double marsWeightDoubleManoj;
